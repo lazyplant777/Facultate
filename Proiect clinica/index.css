@@ -3,6 +3,7 @@ body{
     background-image: url(fundalContinut.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    /* viewheight / viewwidth ( vh vw ) div in body cu imaginea.. 100% */
 }
 #logo{
     width: 110px;
