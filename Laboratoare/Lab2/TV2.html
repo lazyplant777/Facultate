@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TV</title>
+    <style>
+        table, td, th{
+            border: 0.1em solid purple;
+            border-collapse: collapse;
+            background-color: rgb(184, 245, 189);
+            text-align: center;
+            color: saddlebrown;
+            font-size: 1.1em;
+            /* margin: 0 auto; */
+        }
+        table span{
+            font-weight: bold;
+        }
+        th, tr:nth-child(2) td:first-child{
+            background-color: lightblue;
+            color: black;
+        }
+        img{
+            position: relative;
+            width: 7em;
+            height: 5em;
+            opacity: 0.2;
+            margin: 0 1em;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: fit-content; height: auto;">
+        <tr>
+            <th></th>
+            <th>Ziua</th>
+            <th>Post TV</th>
+            <th>Emisiune</th>
+        </tr>
+        <tr>
+            <td rowspan="5" colspan="1"><span>Emisiuni TV preferate</span></td>
+            <td>Luni</td>
+            <td>Discovery Channel</td>
+            <td id="cumSeFabrica"><div style="position: absolute; top: 10%; left: 29.5%;">Cum se fabrica</div><img src="/Laboratoare/Lab2/imagini/cum-se-fabrica.jpg"></td>
+        </tr>
+        <tr>
+            <td>Marti</td>
+            <td>TVE</td>
+            <td id="oblio"><div style="position: absolute; top:24.5%; left: 30%">Oblio's return</div><div><img src="/Laboratoare/Lab2/imagini/oblios-return.png" alt=""></div></td>
+        </tr>
+        <tr>
+            <td>Miercuri</td>
+            <td>Prima TV</td>
+            <td id="cronica"><div style="position: absolute; top:39.5%; left: 28.5%">Cronica Carcotasilor</div><div><img src="/Laboratoare/Lab2/imagini/cronica.jpg" alt=""></div></td>
+        </tr>
+        <tr>
+            <td>Joi</td>
+            <td>AXN</td>
+            <td id="srurvivor"><div style="position: absolute; top:54%; left: 31%">Survivor</div><div><img src="/Laboratoare/Lab2/imagini/survivor.png" alt=""></div></td>
+        </tr>
+        <tr>
+            <td>Vineri</td>
+            <td>Cartoon Network</td>
+            <td id="scooby"><div style="position: absolute; top:68%; left: 30.5%">Scooby Doo</div><div><img src="/Laboratoare/Lab2/imagini/scooby-doo.jpg" alt=""></div></td>
+        </tr>
+    </table>
+    <br><br><br><center>
+            <a href="cuprins.html"><b><i>&#206;napoi la cuprins</i></b></a>
+            </center>
+            
+</body>
+</html>

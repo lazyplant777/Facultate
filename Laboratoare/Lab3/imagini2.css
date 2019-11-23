@@ -1,0 +1,24 @@
+.poza1 {
+  border: medium dashed #ff69b4;
+  height: 125px;
+  width: 10%;
+  vertical-align: middle;
+}
+.poza2 {
+  border: medium dotted #68b5ff;
+  height: 125px;
+  width: 200px;
+  vertical-align: middle;
+}
+.poza3 {
+  border: medium double #35ff97;
+  height: 10%;
+  width: 200px;
+  vertical-align: middle;
+}
+.poza4 {
+  border: medium inset #8ec8ff;
+  height: 125px;
+  width: 200px;
+  vertical-align: middle;
+}
