@@ -6,7 +6,8 @@ body{
     margin-left: 7em;
 }
 .topbar{
-    background-color: #23B14D;
+    background: rgb(81,244,208);
+    background: linear-gradient(180deg, rgba(81,244,208,1) 0%, rgba(251,151,124,1) 100%);
     height: 100px;
     position: fixed;
     z-index: 1;
@@ -15,7 +16,6 @@ body{
     right: 1%;
     font-family: 'Times New Roman', Times, serif;
     /* border: 3px solid black; */
-    box-shadow: 10px 10px black;
 }
 .topbar ul{
     float: right;
