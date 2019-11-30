@@ -1,3 +1,4 @@
 <?php
-echo("Primul meu script PHP.");
+// PHP code goes here
+<p>show this</p>
 ?>
