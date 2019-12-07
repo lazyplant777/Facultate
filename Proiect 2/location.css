@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+
+@keyframes text-pop-up-bottom {
+    0% {
+        transform: translateY(0);
+        transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+        transform: translateY(2em);
+        transform-origin: 50% 50%;
+    }
+  }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo, img {
+  width: 10em;
+  cursor: pointer;
+  margin-left: 4%;
+}
+
+#finddoctor {
+  width: 3em;
+}
+
+a:hover + #find-doctor{
+  display: block;
+  position: absolute;
+  top: 11.5%;
+  left: 32.5%;
+  animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#servicii {
+width: 3em;
+}
+
+a:hover + #servicii-medi {
+  display: block;
+  position: absolute;
+  top: 11.5%;
+  left: 41.5%;
+  animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#tratament {
+width: 3em;
+}
+
+a:hover + #trat {
+  display: block;
+  position: absolute;
+  top: 11.5%;
+  left: 51.5%;
+  animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#locatie {
+width: 3em;
+}
+
+a:hover + #loc {
+  display: block;
+  position: absolute;
+  top: 11.5%;
+  left: 61.3%;
+  animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#laborator {
+width: 3em;
+}
+
+a:hover + #lab {
+  display: block;
+  position: absolute;
+  top: 11.5%;
+  left: 69.3%;
+  animation: text-pop-up-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+span {
+    display: none;
+  color: black;
+}
+
+li,
+a,
+button {
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 1em;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 2.5em;
+}
+
+.nav-links span {
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  background-color: black;
+  padding: 0.8em 1.5em;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#searchbutton {
+  width: 10em;
+  height: 2em;
+  position: absolute;
+  right: 8%;
+}
+
+::placeholder {
+    text-align: left;
+}
+
+#harta-clinica {
+    position: absolute;
+    left: 10%;
+    margin-top: 5em;
+}
+
+#harta-clinica2 {
+    position: absolute;
+    right: 10%;
+    margin-top: 5em;
+}
+
+.harti h1:first-child {
+    position: absolute;
+    left: 20%;
+    margin-top: 2em;
+}
+
+.harti h1:nth-child(2) {
+    position: absolute;
+    right: 20%;
+    margin-top: 2em;
+}
+
+#datecta1 img {
+    width: 2em;
+}
+
+#datecta1 {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+#datecta1 div {
+    display: flex;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+#datecta2 img {
+    width: 2em;
+}
+
+#datecta2 {
+    position: absolute;
+    bottom: 12%;
+    right: 15%;
+}
+
+#datecta2 div {
+    display: flex;
+    line-height: 2em;
+    vertical-align: middle;
+}
