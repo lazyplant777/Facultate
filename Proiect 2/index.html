@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <title>Home</title>
   </head>
   <body>
@@ -26,5 +27,30 @@
         <img src="../Proiect 2/images/cover1.jpg" alt="Fundal" id="fundal">
         <h1>Empatia Este Aici. Grija Care Dureaza O Viata.</h1>
       </article>
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/Proiect 2/images/clickfarm.png" width="90%" alt=""></div>
+            <div class="swiper-slide"><img src="/Proiect 2/images/opinie.jpg" width="90%" alt=""></div>
+            <div class="swiper-slide"><img src="/Proiect 2/images/schimbare.png" alt=""></div>
+            <!-- <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div> -->
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
   </body>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
 </html>
